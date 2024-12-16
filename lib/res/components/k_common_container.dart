@@ -11,7 +11,6 @@ class CommonContainer extends StatelessWidget {
     return Container(
       width: MediaQuery.of(context).size.width,
       height: MediaQuery.of(context).size.height,
-      child: child,
       decoration: BoxDecoration(
         image: DecorationImage(image: AssetImage(image),
           fit: BoxFit.cover,

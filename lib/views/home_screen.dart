@@ -37,7 +37,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
 
     return Consumer<DashboardProvider>(builder: (context,dashboardProvider,_){
-
       return Scaffold(
         appBar: AppBar(
           backgroundColor: AppColors.primary,
